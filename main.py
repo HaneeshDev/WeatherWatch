@@ -11,4 +11,6 @@ temp = r.html.find('span#wob_tm',first=True).text
 
 print(temp)
 
-print(r.html.find("div.vk_bk.wob-unit",first=True))
+unit = r.html.find("div.vk_bk.wob-unit span.wob_t",first=True).text
+
+print(unit)
